@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karan Attars</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f5f5;
+}
+
+header {
+    background: black;
+    color: gold;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background: gold;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: orange;
+}
+</style>
+</head>
+
+<body>
+
+<header>Karan YT Attars</header>
+
+<div class="products">
+
+<div class="card">
+<img src="https://via.placeholder.com/250">
+<h3>Royal Attar</h3>
+<p>₹499</p>
+<button onclick="order()">Order Now</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/250">
+<h3>Oud Special</h3>
+<p>₹999</p>
+<button onclick="order()">Order Now</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/250">
+<h3>Rose Attar</h3>
+<p>₹299</p>
+<button onclick="order()">Order Now</button>
+</div>
+
+</div>
+
+<script>
